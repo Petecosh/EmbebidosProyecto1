@@ -1,0 +1,14 @@
+path: /home/petecosh/Documentos/DeteccionRocas/open_pit_train.v2i.yolov8
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['stone']
+
+roboflow:
+  workspace: mikhail-ronkin
+  project: open_pit_train
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/mikhail-ronkin/open_pit_train/dataset/2
